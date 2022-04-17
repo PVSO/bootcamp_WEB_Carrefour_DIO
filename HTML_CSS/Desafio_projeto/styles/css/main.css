@@ -1,0 +1,40 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: "Times New Roman", Times, Serif;
+}
+
+.cabecalhoMenu .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoMenu .nomeSite {
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.cabecalhoMenu .menu a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+.cabecalhoMenu .menu a:hover{
+    color: #fff;
+}
+

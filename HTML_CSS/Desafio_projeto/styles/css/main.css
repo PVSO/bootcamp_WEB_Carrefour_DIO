@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/* elementos base */
 body {
     background: var(--preto);
     font-family: "Times New Roman", Times, Serif;
+    color: #ffffff;
 }
 
 .cabecalhoMenu .container {
@@ -38,3 +40,25 @@ body {
     color: #fff;
 }
 
+/*Filme principal*/
+
+.filmePrincipal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url("../../resources/img/capa_yellowstone.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmePrincipal .descricao {
+    margin-bottom: 40px;
+}
+
+.filmePrincipal .nomeFilme {
+    font-size: 40px;
+}

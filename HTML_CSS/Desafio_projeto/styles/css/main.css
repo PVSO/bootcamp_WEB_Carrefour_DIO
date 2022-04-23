@@ -12,7 +12,7 @@
 /* elementos base */
 body {
     background: var(--preto);
-    font-family: "Times New Roman", Times, Serif;
+    font-family: "Arial", Times, Serif;
     color: #ffffff;
 }
 
@@ -100,4 +100,8 @@ body {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosselFilmes {
+    margin-top: 5px;
 }

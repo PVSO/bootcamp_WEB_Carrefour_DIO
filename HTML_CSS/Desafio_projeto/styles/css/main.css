@@ -56,9 +56,34 @@ body {
 }
 
 .filmePrincipal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
 .filmePrincipal .nomeFilme {
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, SansSerif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .5s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
 }

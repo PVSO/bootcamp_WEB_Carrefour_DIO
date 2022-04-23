@@ -87,3 +87,11 @@ body {
 .botao i {
     margin-right: 8px;
 }
+
+.container {
+    margin-left: 30px;
+}
+
+.filmePrincipal .container {
+    width: 70%;
+}
